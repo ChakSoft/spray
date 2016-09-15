@@ -18,7 +18,7 @@ const SprayClient = require('spray');
 
 ### Register your application
 
-When you want to use Spray API, you will have to make sure your application has been created on the [https://authweb.chaksoft.fr](AuthWeb ChakSoft platform).
+When you want to use Spray API, you will have to make sure your application has been created on the [AuthWeb ChakSoft platform](https://authweb.chaksoft.fr).
 Then your app has to be approved by ChakSoft and you will receive your API Key.
 
 This key **must not** be known by your users.
