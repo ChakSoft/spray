@@ -47,13 +47,12 @@ On a login backend callback in your application :
 client.login().then(data => {
     // Redirect your user to the URI in `data.login.redirectTo`.
 }).catch(err => console.error(err));
+```
 
 Your user will be redirected to AuthWeb website to login and allow your application.
 Then, AuthWeb will redirect the user on your application following this pattern :
 
-```
-${YOUR_WEBSITE_ADDRESS}/spray?allow=(0|1)[&token=LOGIN_TOKEN]
-```
+`${YOUR_WEBSITE_ADDRESS}/spray?allow=(0|1)[&token=LOGIN_TOKEN]`
 
 If the `allow` parameter is `0`, the user has prevented your application from fetching information in AuthWeb. You cannot continue.
 If the `allow` parameter is `1`, the user has allowed your application, and you can store the login token in your session system to ensure your user will remain connected.
