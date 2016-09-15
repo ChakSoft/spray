@@ -5,7 +5,7 @@ This JavaScript library can be used to access ChakSoft Spray API from NodeJS 6.x
 ## Installation
 
 ```bash
-$ npm install chaksoft/spray
+$ npm install spray-client
 ```
 
 ## Usage
