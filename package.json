@@ -1,0 +1,24 @@
+{
+  "name": "spray",
+  "version": "1.0.0-beta.1",
+  "description": "Utility Access for Spray API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChakSoft/spray.git"
+  },
+  "author": "Michael Chacaton",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ChakSoft/spray/issues"
+  },
+  "homepage": "https://github.com/ChakSoft/spray#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  }
+}
