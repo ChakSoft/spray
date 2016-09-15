@@ -37,7 +37,7 @@ class SprayClient {
     }
 
     info(token, callback) {
-        let request = new SprayLib.SprayRequest('get', 'user/info', {
+        let request = new SprayLib.SprayRequest('get', 'user/get', {
             'Application-Key': this.options.apiKey,
             'API-Version': this.options.apiVersion,
             'Authentication-Token': token
@@ -55,3 +55,5 @@ class SprayClient {
         });
     }
 }
+
+module.exports = SprayClient;
