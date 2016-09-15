@@ -2,6 +2,8 @@
 
 This JavaScript library can be used to access ChakSoft Spray API from NodeJS 6.x.
 
+![Dependencies](https://david-dm.org/ChakSoft/spray.svg)
+
 ## Installation
 
 ```bash
